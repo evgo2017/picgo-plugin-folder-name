@@ -1,0 +1,37 @@
+{
+  "name": "picgo-plugin-folder-name",
+  "version": "1.0.0",
+  "author": "evgo2017 <evgo2017@qq.com>",
+  "description": "Use part of the local address of the file as part of the cloud address - 将文件的部分本地地址，作为部分云端地址",
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "patch": "npm version patch && git push origin master && git push origin --tags",
+    "minor": "npm version minor && git push origin master && git push origin --tags",
+    "major": "npm version major && git push origin master && git push origin --tags"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/evgo2017/picgo-plugin-folder-name",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evgo2017/picgo-plugin-folder-name.git"
+  },
+  "bugs": {
+    "url": "https://github.com/evgo2017/picgo-plugin-folder-name/issues"
+  },
+  "keywords": [
+    "picgo",
+    "picgo-plugin",
+    "picgo-gui-plugin"
+  ],
+  "devDependencies": {
+    "eslint": "^5.0.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0"
+  }
+}
