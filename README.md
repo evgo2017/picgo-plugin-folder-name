@@ -12,6 +12,8 @@ Use part of the local address of the file as part of the cloud address.
 
 将文件的父文件夹名称 `picgo` **自动设置**为一层地址，并忽略 `assets` 这一层。
 
+![picgo-plugin-folder-name](assets/picgo-plugin-folder-name.png)
+
 > 开发此插件起始原因：
 >
 > 使用 Typora 书写 Markdown 文章，配置好图片上传服务后，移入的图片会通过 PicGo 自动上传至云端，地址随后改为云端地址。
